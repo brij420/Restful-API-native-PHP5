@@ -7,8 +7,8 @@ class MySQL {
 
     var $hostname; // = "localhost";			// MySQL Hostname
     var $username; // = "sid";       			// MySQL Username
-    var $password; // = "admin";          		// MySQL Password
-    var $database; // = "SID-DB_Schema-20140707";       // MySQL Database
+    var $password;          		// MySQL Password
+    var $database;      // MySQL Database
     var $port; // = 3306;				// MySQL Port Address [conventional 3306]
     // Base variables
     var $lastError = '';         // Holds the last error
@@ -20,8 +20,7 @@ class MySQL {
     var $arrayedResult;     // Holds an array of the result
     var $databaseLink;      // Database Connection Link
 
-    //var $table = array('SIDT_Users' => "SIDT_Users", 'SIDT_SessionKey' => 'SIDT_SessionKey', "SIDT_Schools" => "SIDT_Schools", 'SIDT_Profiles' => 'SIDT_Profiles');
-
+   
     /*     * ******************
      * Class Constructor *
      * ****************** */
