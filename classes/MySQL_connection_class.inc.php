@@ -1,10 +1,6 @@
 <?php
 
-/*
- *  @abir
- *  dated 
- *
- */
+
 
 // MySQL Classes
 class MySQL {
