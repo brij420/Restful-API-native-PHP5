@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+    #RewriteBase /SID
+
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^/]*)(.*)$ index\.php\?action=$2 [nc,qsa]
+#RewriteRule ^([a-zA-Z_-]*)$ index\.php\?action=$1 [nc,qsa]
+
